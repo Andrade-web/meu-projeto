@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ap.css">
+    <title>Jogo da Velha</title>
+
+</head>
+
+<body>
+    <header id="dois">
+
+        <ul>
+
+            <a href="calculadora.html">Calculadora</a>
+            <a href="ap.html">Lista</a>
+            <a href="jogo.html">Jogo</a>
+
+        </ul>
+
+    </header>
+    <h2>JOGO DA VELHA</h2>
+    <div class="container">
+        <table class="jogo">
+            <tr>
+                <td class="bloco" onclick="jogar(this)"></td>
+                <td class="bloco" onclick="jogar(this)"></td>
+                <td class="bloco" onclick="jogar(this)"></td>
+            </tr>
+            <tr>
+                <td class="bloco" onclick="jogar(this)"></td>
+                <td class="bloco" onclick="jogar(this)"></td>
+                <td class="bloco" onclick="jogar(this)"></td>
+            </tr>
+            <tr>
+                <td class="bloco" onclick="jogar(this)"></td>
+                <td class="bloco" onclick="jogar(this)"></td>
+                <td class="bloco" onclick="jogar(this)"></td>
+            </tr>
+        </table>
+        <button id="butt" onclick="reiniciar()">Reiniciar</button>
+    </div>
+    
+    
+
+    
+</body>
+<script src="ap.js"></script>
+</html>

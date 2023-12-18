@@ -16,4 +16,4 @@ https://andrade-web.github.io/meu-projeto/index.html
 
 ## Layout da Lista de afazeres 
 
-![Layout 2]()
+![Layout 2](https://github.com/Andrade-web/meu-projeto/blob/main/2.png)

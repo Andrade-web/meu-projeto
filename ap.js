@@ -63,3 +63,27 @@ btn.addEventListener("click", function(){
         
       });
 })
+document.addEventListener("keydown", function(event){
+    if(event.key == "Enter"){
+        if(tarefa.value == ""){
+            alert("digite algo")
+        }else{
+            lista.innerHTML += `<li><i class="material-icons green">check_circle</i><span>${ tarefa.value }</span><i class="material-icons close">delete</i></li>`
+        }
+        tarefa.value = "";
+    }
+    
+    const close = document.querySelectorAll(".close");
+    for(let i=0; i<close.length; i++){
+        close[i].addEventListener("click", function(){
+            close[i].parentElement.remove();
+        });
+    }
+
+    lista.addEventListener("click", function(e){
+        e.target.parentElement.querySelector(".green").style.color = "green";
+        e.target.parentElement.querySelector("span").style.textDecoration = "line-through";
+    })
+    
+
+});

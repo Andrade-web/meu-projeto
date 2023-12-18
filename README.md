@@ -20,4 +20,13 @@ https://andrade-web.github.io/meu-projeto/index.html
 
 ## Layout do JOGO DA VELHA
 
-![Layout 4]()
+![Layout 4](https://github.com/Andrade-web/meu-projeto/blob/main/4.png)
+
+
+
+## Tecnologias utilizadas 
+- HTML / CSS / JS
+
+
+## Autor
+- Guilherme Andrade 

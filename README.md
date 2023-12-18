@@ -12,3 +12,8 @@ https://andrade-web.github.io/meu-projeto/index.html
 ## Layout da Calculadora
 
 ![Layout 1](https://github.com/Andrade-web/meu-projeto/blob/main/1.png)
+
+
+## Layout da Lista de afazeres 
+
+![Layout 2]()
